@@ -1,0 +1,7 @@
+[project]
+name = "multi-echelon-inventory"
+version = "0.1.0"
+description = "Çok Kademeli Stok ve Kapasite"
+requires-python = ">=3.12"
+[tool.ruff]
+line-length = 120

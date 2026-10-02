@@ -1,0 +1,598 @@
+{
+  "stores": {
+    "A": {
+      "demand": 543,
+      "sold": 498,
+      "lost": 45,
+      "holding_units": 704,
+      "fill_rate": 0.9171270718232044
+    },
+    "B": {
+      "demand": 451,
+      "sold": 409,
+      "lost": 42,
+      "holding_units": 585,
+      "fill_rate": 0.9068736141906873
+    }
+  },
+  "central_final": 203,
+  "in_transit": [
+    {
+      "store": "B",
+      "due": 90,
+      "quantity": 4
+    },
+    {
+      "store": "A",
+      "due": 91,
+      "quantity": 8
+    },
+    {
+      "store": "B",
+      "due": 91,
+      "quantity": 2
+    },
+    {
+      "store": "A",
+      "due": 92,
+      "quantity": 8
+    },
+    {
+      "store": "B",
+      "due": 92,
+      "quantity": 1
+    },
+    {
+      "store": "A",
+      "due": 93,
+      "quantity": 10
+    },
+    {
+      "store": "B",
+      "due": 93,
+      "quantity": 4
+    }
+  ],
+  "daily": [
+    {
+      "day": 0,
+      "central": 44,
+      "shipped": 18,
+      "backlog": 13
+    },
+    {
+      "day": 1,
+      "central": 39,
+      "shipped": 17,
+      "backlog": 0
+    },
+    {
+      "day": 2,
+      "central": 45,
+      "shipped": 6,
+      "backlog": 0
+    },
+    {
+      "day": 3,
+      "central": 54,
+      "shipped": 3,
+      "backlog": 0
+    },
+    {
+      "day": 4,
+      "central": 48,
+      "shipped": 18,
+      "backlog": 0
+    },
+    {
+      "day": 5,
+      "central": 50,
+      "shipped": 10,
+      "backlog": 0
+    },
+    {
+      "day": 6,
+      "central": 56,
+      "shipped": 6,
+      "backlog": 0
+    },
+    {
+      "day": 7,
+      "central": 67,
+      "shipped": 1,
+      "backlog": 0
+    },
+    {
+      "day": 8,
+      "central": 73,
+      "shipped": 6,
+      "backlog": 0
+    },
+    {
+      "day": 9,
+      "central": 68,
+      "shipped": 17,
+      "backlog": 0
+    },
+    {
+      "day": 10,
+      "central": 72,
+      "shipped": 8,
+      "backlog": 0
+    },
+    {
+      "day": 11,
+      "central": 76,
+      "shipped": 8,
+      "backlog": 0
+    },
+    {
+      "day": 12,
+      "central": 74,
+      "shipped": 14,
+      "backlog": 0
+    },
+    {
+      "day": 13,
+      "central": 77,
+      "shipped": 9,
+      "backlog": 0
+    },
+    {
+      "day": 14,
+      "central": 73,
+      "shipped": 16,
+      "backlog": 0
+    },
+    {
+      "day": 15,
+      "central": 81,
+      "shipped": 4,
+      "backlog": 0
+    },
+    {
+      "day": 16,
+      "central": 79,
+      "shipped": 14,
+      "backlog": 0
+    },
+    {
+      "day": 17,
+      "central": 78,
+      "shipped": 13,
+      "backlog": 0
+    },
+    {
+      "day": 18,
+      "central": 81,
+      "shipped": 9,
+      "backlog": 0
+    },
+    {
+      "day": 19,
+      "central": 88,
+      "shipped": 5,
+      "backlog": 0
+    },
+    {
+      "day": 20,
+      "central": 83,
+      "shipped": 17,
+      "backlog": 0
+    },
+    {
+      "day": 21,
+      "central": 93,
+      "shipped": 2,
+      "backlog": 0
+    },
+    {
+      "day": 22,
+      "central": 98,
+      "shipped": 7,
+      "backlog": 0
+    },
+    {
+      "day": 23,
+      "central": 100,
+      "shipped": 10,
+      "backlog": 0
+    },
+    {
+      "day": 24,
+      "central": 99,
+      "shipped": 13,
+      "backlog": 0
+    },
+    {
+      "day": 25,
+      "central": 101,
+      "shipped": 10,
+      "backlog": 0
+    },
+    {
+      "day": 26,
+      "central": 100,
+      "shipped": 13,
+      "backlog": 0
+    },
+    {
+      "day": 27,
+      "central": 106,
+      "shipped": 6,
+      "backlog": 0
+    },
+    {
+      "day": 28,
+      "central": 111,
+      "shipped": 7,
+      "backlog": 0
+    },
+    {
+      "day": 29,
+      "central": 111,
+      "shipped": 12,
+      "backlog": 0
+    },
+    {
+      "day": 30,
+      "central": 105,
+      "shipped": 18,
+      "backlog": 1
+    },
+    {
+      "day": 31,
+      "central": 102,
+      "shipped": 15,
+      "backlog": 0
+    },
+    {
+      "day": 32,
+      "central": 110,
+      "shipped": 4,
+      "backlog": 0
+    },
+    {
+      "day": 33,
+      "central": 116,
+      "shipped": 6,
+      "backlog": 0
+    },
+    {
+      "day": 34,
+      "central": 121,
+      "shipped": 7,
+      "backlog": 0
+    },
+    {
+      "day": 35,
+      "central": 129,
+      "shipped": 4,
+      "backlog": 0
+    },
+    {
+      "day": 36,
+      "central": 134,
+      "shipped": 7,
+      "backlog": 0
+    },
+    {
+      "day": 37,
+      "central": 135,
+      "shipped": 11,
+      "backlog": 0
+    },
+    {
+      "day": 38,
+      "central": 132,
+      "shipped": 15,
+      "backlog": 0
+    },
+    {
+      "day": 39,
+      "central": 137,
+      "shipped": 7,
+      "backlog": 0
+    },
+    {
+      "day": 40,
+      "central": 141,
+      "shipped": 8,
+      "backlog": 0
+    },
+    {
+      "day": 41,
+      "central": 139,
+      "shipped": 14,
+      "backlog": 0
+    },
+    {
+      "day": 42,
+      "central": 133,
+      "shipped": 18,
+      "backlog": 3
+    },
+    {
+      "day": 43,
+      "central": 137,
+      "shipped": 8,
+      "backlog": 0
+    },
+    {
+      "day": 44,
+      "central": 134,
+      "shipped": 15,
+      "backlog": 0
+    },
+    {
+      "day": 45,
+      "central": 140,
+      "shipped": 6,
+      "backlog": 0
+    },
+    {
+      "day": 46,
+      "central": 138,
+      "shipped": 14,
+      "backlog": 0
+    },
+    {
+      "day": 47,
+      "central": 141,
+      "shipped": 9,
+      "backlog": 0
+    },
+    {
+      "day": 48,
+      "central": 143,
+      "shipped": 10,
+      "backlog": 0
+    },
+    {
+      "day": 49,
+      "central": 137,
+      "shipped": 18,
+      "backlog": 0
+    },
+    {
+      "day": 50,
+      "central": 140,
+      "shipped": 9,
+      "backlog": 0
+    },
+    {
+      "day": 51,
+      "central": 147,
+      "shipped": 5,
+      "backlog": 0
+    },
+    {
+      "day": 52,
+      "central": 156,
+      "shipped": 3,
+      "backlog": 0
+    },
+    {
+      "day": 53,
+      "central": 151,
+      "shipped": 17,
+      "backlog": 0
+    },
+    {
+      "day": 54,
+      "central": 153,
+      "shipped": 10,
+      "backlog": 0
+    },
+    {
+      "day": 55,
+      "central": 161,
+      "shipped": 4,
+      "backlog": 0
+    },
+    {
+      "day": 56,
+      "central": 159,
+      "shipped": 14,
+      "backlog": 0
+    },
+    {
+      "day": 57,
+      "central": 158,
+      "shipped": 13,
+      "backlog": 0
+    },
+    {
+      "day": 58,
+      "central": 157,
+      "shipped": 13,
+      "backlog": 0
+    },
+    {
+      "day": 59,
+      "central": 155,
+      "shipped": 14,
+      "backlog": 0
+    },
+    {
+      "day": 60,
+      "central": 161,
+      "shipped": 6,
+      "backlog": 0
+    },
+    {
+      "day": 61,
+      "central": 168,
+      "shipped": 5,
+      "backlog": 0
+    },
+    {
+      "day": 62,
+      "central": 162,
+      "shipped": 18,
+      "backlog": 1
+    },
+    {
+      "day": 63,
+      "central": 161,
+      "shipped": 13,
+      "backlog": 0
+    },
+    {
+      "day": 64,
+      "central": 155,
+      "shipped": 18,
+      "backlog": 0
+    },
+    {
+      "day": 65,
+      "central": 161,
+      "shipped": 6,
+      "backlog": 0
+    },
+    {
+      "day": 66,
+      "central": 162,
+      "shipped": 11,
+      "backlog": 0
+    },
+    {
+      "day": 67,
+      "central": 169,
+      "shipped": 5,
+      "backlog": 0
+    },
+    {
+      "day": 68,
+      "central": 166,
+      "shipped": 15,
+      "backlog": 0
+    },
+    {
+      "day": 69,
+      "central": 177,
+      "shipped": 1,
+      "backlog": 0
+    },
+    {
+      "day": 70,
+      "central": 186,
+      "shipped": 3,
+      "backlog": 0
+    },
+    {
+      "day": 71,
+      "central": 186,
+      "shipped": 12,
+      "backlog": 0
+    },
+    {
+      "day": 72,
+      "central": 180,
+      "shipped": 18,
+      "backlog": 4
+    },
+    {
+      "day": 73,
+      "central": 174,
+      "shipped": 18,
+      "backlog": 1
+    },
+    {
+      "day": 74,
+      "central": 180,
+      "shipped": 6,
+      "backlog": 0
+    },
+    {
+      "day": 75,
+      "central": 184,
+      "shipped": 8,
+      "backlog": 0
+    },
+    {
+      "day": 76,
+      "central": 181,
+      "shipped": 15,
+      "backlog": 0
+    },
+    {
+      "day": 77,
+      "central": 181,
+      "shipped": 12,
+      "backlog": 0
+    },
+    {
+      "day": 78,
+      "central": 186,
+      "shipped": 7,
+      "backlog": 0
+    },
+    {
+      "day": 79,
+      "central": 186,
+      "shipped": 12,
+      "backlog": 0
+    },
+    {
+      "day": 80,
+      "central": 180,
+      "shipped": 18,
+      "backlog": 0
+    },
+    {
+      "day": 81,
+      "central": 179,
+      "shipped": 13,
+      "backlog": 0
+    },
+    {
+      "day": 82,
+      "central": 181,
+      "shipped": 10,
+      "backlog": 0
+    },
+    {
+      "day": 83,
+      "central": 187,
+      "shipped": 6,
+      "backlog": 0
+    },
+    {
+      "day": 84,
+      "central": 189,
+      "shipped": 10,
+      "backlog": 0
+    },
+    {
+      "day": 85,
+      "central": 192,
+      "shipped": 9,
+      "backlog": 0
+    },
+    {
+      "day": 86,
+      "central": 200,
+      "shipped": 4,
+      "backlog": 0
+    },
+    {
+      "day": 87,
+      "central": 202,
+      "shipped": 10,
+      "backlog": 0
+    },
+    {
+      "day": 88,
+      "central": 205,
+      "shipped": 9,
+      "backlog": 0
+    },
+    {
+      "day": 89,
+      "central": 203,
+      "shipped": 14,
+      "backlog": 0
+    }
+  ]
+}

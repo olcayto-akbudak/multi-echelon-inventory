@@ -1,0 +1,13 @@
+test_capacity (test_core.CoreTests.test_capacity) ... ok
+test_demand_conservation (test_core.CoreTests.test_demand_conservation) ... ok
+test_duplicate_store (test_core.CoreTests.test_duplicate_store) ... ok
+test_lead (test_core.CoreTests.test_lead) ... ok
+test_negative_supply (test_core.CoreTests.test_negative_supply) ... ok
+test_nonnegative (test_core.CoreTests.test_nonnegative) ... ok
+test_seed (test_core.CoreTests.test_seed) ... ok
+test_supply_conservation (test_core.CoreTests.test_supply_conservation) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.009s
+
+OK

@@ -1,0 +1,21 @@
+{
+  "days": 90,
+  "lead_time": 4,
+  "daily_supply": 12,
+  "daily_capacity": 18,
+  "central_stock": 50,
+  "stores": [
+    {
+      "id": "A",
+      "initial": 20,
+      "base_stock": 30,
+      "max_demand": 12
+    },
+    {
+      "id": "B",
+      "initial": 15,
+      "base_stock": 25,
+      "max_demand": 10
+    }
+  ]
+}
